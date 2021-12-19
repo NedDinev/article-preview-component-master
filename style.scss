@@ -1,0 +1,26 @@
+@import url(`https://fonts.google.com/specimen/Manrope`);
+$Very_Dark_Grayish_Blue: hsl(217, 19%, 35%);
+$Desaturated_Dark_Blue: hsl(214, 17%, 51%);
+$Grayish_Blue: hsl(212, 23%, 69%);
+$Light_Grayish_Blue: hsl(210, 46%, 95%);
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  width: 900px;
+}
+
+.furniture {
+  width: 300px;
+}

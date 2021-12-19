@@ -1,0 +1,23 @@
+@import url(`https://fonts.google.com/specimen/Manrope`);
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.container {
+  width: 900px;
+}
+
+.furniture {
+  width: 300px;
+}
+/*# sourceMappingURL=style.css.map */
