@@ -2,6 +2,9 @@
 body {
   font-family: "Manrope", sans-serif;
   font-size: 13px;
+  margin: 0;
+  padding: 0;
+  background-color: #ecf2f8;
 }
 
 .attribution {
@@ -13,11 +16,37 @@ body {
   color: #3e52a3;
 }
 
-.container {
-  width: 900px;
+.card-title {
+  word-wrap: break-word;
 }
 
-.furniture {
-  width: 300px;
+.main-text {
+  word-wrap: break-word;
+}
+
+.card {
+  width: 800px;
+  vertical-align: middle;
+  overflow-wrap: break-word;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.author_img {
+  width: 40px;
+}
+
+.share_icon {
+  background-color: #ecf2f8;
+  width: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.fa-share {
+  color: #6d7f97;
 }
 /*# sourceMappingURL=style.css.map */
