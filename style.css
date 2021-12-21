@@ -7,6 +7,47 @@ body {
   background-color: #ecf2f8;
 }
 
+.social {
+  display: unset;
+}
+
+.social-hide {
+  border: transparent;
+  border-radius: 10px;
+  position: relative;
+  bottom: 135px;
+  left: 270px;
+  width: 235px;
+  padding-top: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #48556a;
+  -webkit-box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-hide p {
+  color: #6d7f97;
+  display: inline-block;
+}
+
+.social-hide i {
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.social-hide .triangle-down {
+  border: transparent;
+  position: absolute;
+  left: 95px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #48556a;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -28,6 +69,8 @@ body {
   width: 800px;
   vertical-align: middle;
   overflow-wrap: break-word;
+  -webkit-box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card-img {
@@ -44,6 +87,8 @@ body {
   width: 40px;
   text-align: center;
   padding: 10px;
+  border: none;
+  display: inline-block;
 }
 
 .fa-share {

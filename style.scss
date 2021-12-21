@@ -11,6 +11,42 @@ body {
   padding: 0;
   background-color: $Light_Grayish_Blue;
 }
+.social {
+  display: unset;
+}
+.social-hide {
+  border: transparent;
+  border-radius: 10px;
+  position: relative;
+  bottom: 135px;
+  left: 270px;
+  width: 235px;
+  padding-top: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: $Very_Dark_Grayish_Blue;
+  box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.1);
+  p {
+    color: $Desaturated_Dark_Blue;
+
+    display: inline-block;
+  }
+  i {
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .triangle-down {
+    border: transparent;
+    position: absolute;
+    left: 95px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid $Very_Dark_Grayish_Blue;
+  }
+}
 
 .attribution {
   font-size: 11px;
@@ -29,6 +65,7 @@ body {
   width: 800px;
   vertical-align: middle;
   overflow-wrap: break-word;
+  box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card-img {
@@ -45,6 +82,8 @@ body {
   width: 40px;
   text-align: center;
   padding: 10px;
+  border: none;
+  display: inline-block;
 }
 .fa-share {
   color: $Desaturated_Dark_Blue;
