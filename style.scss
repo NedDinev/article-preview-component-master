@@ -11,16 +11,15 @@ body {
   padding: 0;
   background-color: $Light_Grayish_Blue;
 }
-.social {
-  display: unset;
-}
-.social-hide {
+
+#social_hide {
+  display: none;
   border: transparent;
   border-radius: 10px;
-  position: relative;
-  bottom: 135px;
-  left: 270px;
-  width: 235px;
+  width: 250px;
+  position: absolute;
+  bottom: 110px;
+  left: 651px;
   padding-top: 16px;
   padding-left: 30px;
   padding-right: 30px;
@@ -85,6 +84,12 @@ body {
   border: none;
   display: inline-block;
 }
+.share_icon:hover {
+  background-color: $Desaturated_Dark_Blue;
+}
 .fa-share {
   color: $Desaturated_Dark_Blue;
+}
+.share_icon:hover .fa-share {
+  color: $Light_Grayish_Blue;
 }

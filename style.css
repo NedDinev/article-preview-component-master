@@ -7,17 +7,14 @@ body {
   background-color: #ecf2f8;
 }
 
-.social {
-  display: unset;
-}
-
-.social-hide {
+#social_hide {
+  display: none;
   border: transparent;
   border-radius: 10px;
-  position: relative;
-  bottom: 135px;
-  left: 270px;
-  width: 235px;
+  width: 250px;
+  position: absolute;
+  bottom: 110px;
+  left: 651px;
   padding-top: 16px;
   padding-left: 30px;
   padding-right: 30px;
@@ -26,18 +23,18 @@ body {
           box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.1);
 }
 
-.social-hide p {
+#social_hide p {
   color: #6d7f97;
   display: inline-block;
 }
 
-.social-hide i {
+#social_hide i {
   color: white;
   font-size: 20px;
   margin-left: 15px;
 }
 
-.social-hide .triangle-down {
+#social_hide .triangle-down {
   border: transparent;
   position: absolute;
   left: 95px;
@@ -91,7 +88,15 @@ body {
   display: inline-block;
 }
 
+.share_icon:hover {
+  background-color: #6d7f97;
+}
+
 .fa-share {
   color: #6d7f97;
+}
+
+.share_icon:hover .fa-share {
+  color: #ecf2f8;
 }
 /*# sourceMappingURL=style.css.map */
