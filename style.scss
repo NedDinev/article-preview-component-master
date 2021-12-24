@@ -15,7 +15,7 @@ body {
 #social_hide {
   display: none;
   border: transparent;
-  border-radius: 10px;
+
   width: 250px;
   position: absolute;
   bottom: 110px;
@@ -64,6 +64,7 @@ body {
   width: 800px;
   vertical-align: middle;
   overflow-wrap: break-word;
+  border-radius: 20px;
   box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.1);
 }
 

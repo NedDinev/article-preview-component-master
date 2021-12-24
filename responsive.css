@@ -1,5 +1,49 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 650px;
+  }
+  #social_hide {
+    width: 200px;
+    bottom: 99px;
+    left: 503px;
+    padding-left: 10px;
+    padding-right: 2px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
   .card {
     width: 300px;
+  }
+  #social_hide {
+    width: 300px;
+    bottom: 0px;
+    left: -1px;
+    padding-left: 24px;
+    padding-right: 23px;
+    z-index: 1;
+  }
+  #social_hide .triangle-down {
+    display: none;
+  }
+  #share_icon {
+    position: absolute;
+    z-index: 2;
+    bottom: 6px;
+    left: 230px;
+    width: 44px;
+  }
+  .fa-share {
+    font-size: 15px;
+  }
+  h6 {
+    margin: 0;
+  }
+  .card-text {
+    margin-bottom: 18px;
+  }
+
+  .card-body {
+    padding-bottom: 10px;
   }
 }
