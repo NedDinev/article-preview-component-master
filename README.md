@@ -58,5 +58,5 @@ button.onclick = function () {
 
 ## Author
 
-- Github - [NedDinev](https://www.github.com/neddinev
+- Github - [NedDinev](https://www.github.com/neddinev)
 - Frontend Mentor - [@NedDinev](https://www.frontendmentor.io/profile/neddinev)
