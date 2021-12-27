@@ -10,10 +10,11 @@ body {
 #social_hide {
   display: none;
   border: transparent;
+  border-radius: 15px;
   width: 250px;
   position: absolute;
-  bottom: 110px;
-  left: 651px;
+  bottom: 100px;
+  left: 625px;
   padding-top: 16px;
   padding-left: 30px;
   padding-right: 30px;
@@ -44,6 +45,10 @@ body {
   border-top: 15px solid #48556a;
 }
 
+.card-body {
+  padding: 40px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -61,13 +66,17 @@ body {
 .main-text {
   word-wrap: break-word;
   color: #6d7f97;
+  margin-bottom: 20px;
 }
 
 .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10% auto;
   width: 800px;
-  vertical-align: middle;
   overflow-wrap: break-word;
-  border-radius: 20px;
+  border-radius: 15px;
   -webkit-box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.1);
           box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.1);
 }
@@ -75,10 +84,22 @@ body {
 .card-img {
   width: 100%;
   height: 100%;
+  border-radius: 15px 0 0 15px;
+}
+
+h5 {
+  font-weight: 600;
 }
 
 h6 {
   color: #48556a;
+  font-size: 13px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+small {
+  color: #9eafc2;
 }
 
 .author_img {

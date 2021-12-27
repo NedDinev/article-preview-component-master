@@ -1,11 +1,12 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 770px) {
   .card {
-    width: 650px;
+    width: 90%;
   }
+
   #social_hide {
     width: 200px;
     bottom: 99px;
-    left: 503px;
+    left: 518px;
     padding-left: 10px;
     padding-right: 2px;
   }
@@ -13,15 +14,22 @@
 
 @media only screen and (max-width: 760px) {
   .card {
-    width: 300px;
+    width: 90%;
+  }
+  .card-img {
+    border-radius: 15px 15px 0 0;
+  }
+  .card-body {
+    padding: 40px;
   }
   #social_hide {
-    width: 300px;
+    width: 100%;
     bottom: 0px;
-    left: -1px;
+    left: 0px;
     padding-left: 24px;
     padding-right: 23px;
     z-index: 1;
+    border-radius: 0 0 15px 15px;
   }
   #social_hide .triangle-down {
     display: none;
@@ -45,5 +53,54 @@
 
   .card-body {
     padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  #share_icon {
+    position: absolute;
+    z-index: 2;
+    bottom: 6px;
+    left: 379px;
+    width: 44px;
+  }
+  #social_hide {
+    padding-left: 90px;
+  }
+  #social_hide i {
+    margin-left: 31px;
+  }
+}
+@media only screen and (max-width: 411px) {
+  #share_icon {
+    left: 266px;
+  }
+  #social_hide {
+    padding-left: 50px;
+  }
+  #social_hide i {
+    margin-left: 15px;
+  }
+
+  h5 {
+    font-size: 17px;
+  }
+
+  .card-body {
+    padding: 40px 30px 10px 30px;
+  }
+}
+@media only screen and (max-width: 280px) {
+  #share_icon {
+    left: 202px;
+  }
+  .card-body {
+    padding: 20px;
+    padding-bottom: 0;
+  }
+  #social_hide {
+    padding-left: 20px;
+  }
+  #social_hide i {
+    margin-left: 15px;
   }
 }
